@@ -1,0 +1,260 @@
+/*purple: #694489*/
+/*gray font: #484D4F*/
+
+body {
+  color: #484D4F;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: #2A2A2A;
+}
+
+span {
+  margin-left: 15px;
+}
+
+hr {
+  width: 100px;
+  border: 0;
+  border-top: 1px solid #D7DADB;
+  padding: 0; 
+}
+
+.main {
+  text-align: center;
+  position: relative;
+}
+
+
+.nav {
+  height: 50px;
+  background: white;
+  font-size: 0.9em;
+}
+
+.landing {
+  height: 680px;
+  width: 100%;
+  background: #694489;
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+
+.subheader {
+  font-size: 1.3em;
+}
+
+
+
+.section2 {
+  position: relative;
+  margin-top: 800px;
+}
+
+.section2header, .section3header {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.inline {
+  margin-bottom: 50px;
+}
+
+.inline .container img {
+  display:inline-block; 
+  line-height:20px;
+  margin:0;
+  vertical-align:top;
+  width: 70%;
+}
+
+.container {
+  display:inline-block;
+  vertical-align:top;
+  text-align: center;
+  width: 30%;
+  margin-top: 40px;
+}
+
+.texth4 {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+
+.text h2 {
+  margin-bottom: 0px;
+}
+
+.examples img {
+  display:inline-block; 
+  line-height:20px;
+  margin:0;
+  vertical-align:top;
+  width: 15%;
+}
+
+.section3 {
+  border-top: 1px solid #E3E3E3;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+.footer {
+  background: #262829;
+  position: absolute;
+  padding-top: 50px;
+  height: 180px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.footerContent {
+  margin-left: 350px;
+  text-align: left;
+  font-size: 0.9em;
+  margin-top: 40px;
+  color: #BEBFBF;
+}
+ 
+.footerContent a {
+  color: white;
+}
+
+.footerContent a:hover {
+  text-decoration: underline;
+}
+
+.footerContent div {
+  margin-top: 25px;
+}
+
+
+#topTop {
+  height: 50px;
+  background: #428bca;
+  text-align: center;
+}
+
+
+#topTop p {
+  padding-top: 18px;
+  color: white;
+  font-size: 0.9em;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#nav-left {
+  float: left;
+  margin-left: 150px;
+}
+
+#nav-right {
+  float: right;
+  margin-right: 150px;
+}
+
+#nav-left, #nav-right {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+ 
+#nav-left a, #nav-right a {
+  color: #694489;
+}
+
+#B {
+  font-size: 8em;
+  border: 1px solid white;
+  border-radius: 25px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+#landingText {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: white;
+  font-size: 1.8em;
+}
+
+#download {
+  margin-top: 20px;
+  background: #694489;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60px;
+  width: 280px;
+  font-size:  1.4em;
+  color: white;
+}
+
+#download:hover {
+  color: #694489;
+  background: white;
+}
+
+#version {
+  font-size: 0.8em;
+  color: #BEBFBF;
+  margin-top: 5px;
+}
+
+#landingBottom {
+  font-size: 0.8em;
+  border: .2px solid #BEBFBF;
+  height: 100px;
+  width: 320px;  
+  margin: auto;
+  margin-top: 25px;
+  vertical-align:middle;
+  border-radius: 5px;
+}
+
+#landingBottom div {
+  text-align: left;
+  width: 150px;
+  float: right;
+  margin-right: 15px;
+} 
+
+#github, #expo {
+  font-size: 1.2em;
+  color: #694489;
+  background: white;
+  border: 1px solid #694489;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+}
+
+#github:hover, #expo:hover {
+  color: white;
+  background: #694489;
+}
+
+#exLink {
+  color: #2980b9;
+}
+
